@@ -6,19 +6,9 @@
 var Bob = function() {};
 
 Bob.prototype.hey = function(input) {
-  if (!/[a-z]/i.test(input) && input.slice(-1) == '?') {
-    return 'Sure.'
-  } else if (input.trim().length == 0) {
-    return 'Fine. Be that way!'
-  } else if (!/[a-z]/i.test(input)) {
-    return 'Whatever.'
-  } else if (input == input.toUpperCase()) {
-    return 'Whoa, chill out!'
-  } else if (input.slice(-1) == '?') {
-    return 'Sure.'
-  } else {
-    return 'Whatever.'
-  }
+//
+// YOUR CODE GOES HERE
+//
 };
 
 module.exports = Bob;
